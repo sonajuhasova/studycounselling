@@ -179,13 +179,7 @@ ul {
 }
 
 .interview-video {
-    margin: 10px;
-    height: 50vh;
+    margin: 20px 5px;
+    height: auto;
+    width: auto;
 }
-
-/*
- Large devices (laptops/desktops, 992px and up)
-@media only screen and (min-width: 992px) {
-    body {}
-}
-*/
