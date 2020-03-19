@@ -72,13 +72,12 @@ main {
     text-align: center;
     font-weight: 100;
     margin-bottom: 30px;
+    width: auto;
 
 
 }
 
-.welcome {
-    width: 100vw;
-}
+
 
 .nav-btn {
     text-decoration: none;
