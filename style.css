@@ -23,7 +23,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
-    backdrop-filter: blur(5px);
+
 
 
 
@@ -93,10 +93,10 @@ main {
 }
 
 .visitor-video {
-    border: black solid 2px;
-    /*delete later*/
-    width: 100vw;
+      width: 100vw;
+    height: 33vh;
     display: flex;
+    object-fit: cover;
 
 }
 
@@ -104,6 +104,7 @@ main {
     color: white;
     font-size: 20px;
     margin: auto;
+    text-decoration: none;
 }
 
 /*pop ups*/
@@ -118,7 +119,6 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
-    backdrop-filter: blur(5px);
     position: absolute;
     top: 0;
     left: 0;
