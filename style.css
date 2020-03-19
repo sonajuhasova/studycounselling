@@ -178,6 +178,37 @@ ul {
     padding-left: 20px;
 }
 
+.write-in {
+    width: 60vw;
+    margin: auto;
+    height: 20vh;
+    opacity: .5;
+    overflow-y: scroll;
+
+
+}
+
+.send {
+    color: white;
+    background: rgba(167, 167, 167, 0.3);
+    padding: 10px;
+    font-size: 20px;
+    margin: 20px auto;
+    text-align: left;
+    border-radius: 20px;
+}
+
+.show {
+    color: white;
+    background: rgba(167, 167, 167, 0.3);
+    padding: 10px;
+    font-size: 20px;
+    margin: 5px auto 30px auto;
+    text-align: left;
+    border-radius: 20px;
+
+}
+
 .interview-video {
     margin: 20px 5px;
     height: auto;
