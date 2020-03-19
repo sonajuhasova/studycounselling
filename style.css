@@ -19,7 +19,7 @@ body {
     background-position: center;
     height: 100vh;
     width: 100vw;
-    overflow: hidden;
+    overflow-x: hidden;
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
@@ -98,11 +98,79 @@ main {
     width: 100vw;
     display: flex;
 
+}
 
+/*pop ups*/
 
+.popup {
+    background: url(media/baaa-facade-1600x1000.jpg);
+    object-fit: cover;
+    background-position: center;
+    width: 100vw;
+    min-height: 100vh;
+    overflow: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+    backdrop-filter: blur(5px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: none;
+}
+
+.popup-blue {
+    background: rgba(52, 198, 255, 0.6);
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.go-back {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
 
 }
 
+.popup-content {
+    margin: 100px 20px auto 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: auto;
+}
+
+
+
+.popup-title {
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    margin: 30px;
+    width: auto;
+    font-size: 30px;
+}
+
+.popup-text {
+    color: white;
+    background: rgba(167, 167, 167, 0.3);
+    padding: 10px;
+    font-size: 20px;
+    margin: 20px;
+    text-align: left;
+    border-radius: 20px;
+    line-height: 1.4;
+
+}
+
+ul {
+    padding-left: 20px;
+}
 
 /*
  Large devices (laptops/desktops, 992px and up)
