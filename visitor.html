@@ -27,7 +27,7 @@
             <a href="#interviews" class="nav-btn" id="interviews-btn">Student interviews</a>
             <a href="#ask" class="nav-btn" id="ask-btn">Ask a question</a>
             <a href="#contact" class="nav-btn" id="contact-btn">Contact</a>
-
+<a href="index.html" class="arrow">&larrhk;</a>
         </main>
 
         <!--   pop up windows-->
@@ -124,4 +124,27 @@
 
     </div>
     <script type="text/javascript" src="script.js"></script>
+    <script>
+        // about programmes popup
+        var popup6 = document.getElementById("about");
+        var btn = document.getElementById("about-btn");
+        var goBack = document.getElementsByClassName("go-back")[0];
+        btn.onclick = function() {
+            popup6.style.display = "block";
+        }
+        goBack.onclick = function() {
+            popup6.style.display = "none";
+        }
+
+        // faq application popup
+        var popup7 = document.getElementById("faq-a");
+        var btn = document.getElementById("faq-a-btn");
+        var goBack = document.getElementsByClassName("go-back")[0];
+        btn.onclick = function() {
+            popup7.style.display = "block";
+        }
+        goBack.onclick = function() {
+            popup7.style.display = "none";
+        }
+    </script>
 </body></html>

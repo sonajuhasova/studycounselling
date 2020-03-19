@@ -23,7 +23,7 @@
             <a href="#interviews" class="nav-btn" id="interviews-btn">Student interviews</a>
             <a href="#ask" class="nav-btn" id="ask-btn">Ask a question</a>
             <a href="#contact" class="nav-btn" id="contact-btn">Contact</a>
-
+            <a href="index.html" class="arrow">&larrhk;</a>
         </main>
     </div>
 
@@ -130,4 +130,27 @@
 
 
     <script type="text/javascript" src="script.js"></script>
+    <script>
+        //what is study counselling popup
+        var popup1 = document.getElementById("what-is-sc");
+        var btn = document.getElementById("what-btn");
+        var goBack = document.getElementsByClassName("go-back")[0];
+        btn.onclick = function() {
+            popup1.style.display = "block";
+        }
+        goBack.onclick = function() {
+            popup1.style.display = "none";
+        }
+
+        // faq popup
+        var popup2 = document.getElementById("faq");
+        var btn = document.getElementById("faq-btn");
+        var goBack = document.getElementsByClassName("go-back")[0];
+        btn.onclick = function() {
+            popup2.style.display = "block";
+        }
+        goBack.onclick = function() {
+            popup2.style.display = "none";
+        }
+    </script>
 </body></html>

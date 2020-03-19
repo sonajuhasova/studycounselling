@@ -1,25 +1,5 @@
-//what is study counselling popup
-var popup1 = document.getElementById("what-is-sc");
-var btn = document.getElementById("what-btn");
-var goBack = document.getElementsByClassName("go-back")[0];
-btn.onclick = function () {
-    popup1.style.display = "block";
-}
-goBack.onclick = function () {
-    popup1.style.display = "none";
-}
 
-// faq popup
-var popup2 = document.getElementById("faq");
-var btn = document.getElementById("faq-btn");
-var goBack = document.getElementsByClassName("go-back")[0];
-btn.onclick = function () {
-    popup2.style.display = "block";
-}
-goBack.onclick = function () {
-    popup2.style.display = "none";
-}
-
+//common popups
 // interviews popup
 var popup3 = document.getElementById("interviews");
 var btn = document.getElementById("interviews-btn");
@@ -53,24 +33,3 @@ goBack.onclick = function () {
     popup5.style.display = "none";
 }
 
-// about programmes popup
-var popup6 = document.getElementById("about");
-var btn = document.getElementById("about-btn");
-var goBack = document.getElementsByClassName("go-back")[0];
-btn.onclick = function () {
-    popup6.style.display = "block";
-}
-goBack.onclick = function () {
-    popup6.style.display = "none";
-}
-
-// faq application popup
-var popup7 = document.getElementById("faq-a");
-var btn = document.getElementById("faq-a-btn");
-var goBack = document.getElementsByClassName("go-back")[0];
-btn.onclick = function () {
-    popup7.style.display = "block";
-}
-goBack.onclick = function () {
-    popup7.style.display = "none";
-}
