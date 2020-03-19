@@ -64,7 +64,7 @@ main {
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    width: auto;
+    min-width: 55vw;
 }
 
 .main-title {
