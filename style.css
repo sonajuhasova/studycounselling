@@ -93,7 +93,7 @@ main {
 }
 
 .visitor-video {
-      width: 100vw;
+    width: 100vw;
     height: 33vh;
     display: flex;
     object-fit: cover;
@@ -176,6 +176,11 @@ main {
 
 ul {
     padding-left: 20px;
+}
+
+.interview-video {
+    margin: 10px;
+    height: 50vh;
 }
 
 /*
