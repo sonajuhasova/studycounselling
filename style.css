@@ -76,6 +76,10 @@ main {
 
 }
 
+.welcome {
+    width: 100vw;
+}
+
 .nav-btn {
     text-decoration: none;
     color: white;
