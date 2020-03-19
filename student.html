@@ -9,6 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="" />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css' rel='stylesheet' />
 </head>
 
 <body>
@@ -17,7 +19,7 @@
             <img src="media/logo.png" alt="logo" class="logo">
         </header>
         <main>
-            <h1 class="main-title"> Student portal</h1>
+            <h1 class="main-title">Student portal</h1>
             <a href="#what-is-sc" class="nav-btn" id="what-btn">What is study counselling?</a>
             <a href="#faq" class="nav-btn" id="faq-btn">FAQ</a>
             <a href="#interviews" class="nav-btn" id="interviews-btn">Student interviews</a>
@@ -149,6 +151,7 @@
 
 
                 </div>
+                <div id='map' class="map-settings"></div>
                 <div class="popup-text">
                     Ringvej Syd 104<br>
                     Contact<br>
@@ -174,6 +177,7 @@
                     Wednesdays<br> 10.10-12.15 and 12.45-14.15<br>
                     - or make an appointment.
                 </div>
+                <div id='map2' class="map-settings"></div>
             </div>
         </div>
     </div>
@@ -181,5 +185,6 @@
 
 
     <script type="text/javascript" src="student.js"></script>
+    <script type="text/javascript" src="script.js"></script>
 
 </body></html>
