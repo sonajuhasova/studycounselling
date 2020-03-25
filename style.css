@@ -123,6 +123,16 @@ main {
 
 }
 
+.gradient {
+    background: rgb(122, 186, 200);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(122, 186, 200, 0)), to(rgba(122, 186, 200, 0.8550770650056898)));
+    background: linear-gradient(180deg, rgba(122, 186, 200, 0) 50%, rgba(122, 186, 200, 0.8550770650056898) 100%);
+    position: absolute;
+    z-index: 5;
+    width: 100vw;
+    height: 33vh;
+}
+
 .arrow {
     color: white;
     font-size: 30px;
