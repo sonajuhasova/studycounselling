@@ -125,8 +125,8 @@ main {
 
 .gradient {
     background: rgb(122, 186, 200);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(50%, rgba(122, 186, 200, 0)), to(rgba(122, 186, 200, 0.8550770650056898)));
-    background: linear-gradient(180deg, rgba(122, 186, 200, 0) 50%, rgba(122, 186, 200, 0.8550770650056898) 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(71%, rgba(122, 186, 200, 0)), to(rgba(122, 186, 200, 0.8886905103838411)));
+    background: linear-gradient(180deg, rgba(122, 186, 200, 0) 71%, rgba(122, 186, 200, 0.8886905103838411) 100%);
     position: absolute;
     z-index: 5;
     width: 100vw;
@@ -209,6 +209,14 @@ main {
     margin: 30px;
     width: auto;
     font-size: 30px;
+}
+
+.popup-subtitle {
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    width: auto;
+    font-size: 25px;
 }
 
 .popup-text {
