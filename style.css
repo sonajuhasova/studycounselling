@@ -198,6 +198,7 @@ main {
     display: flex;
     -o-object-fit: cover;
     object-fit: cover;
+    margin-bottom: 30px;
 
 }
 
@@ -227,7 +228,7 @@ main {
     background-position: center;
     width: 100vw;
     min-height: 100vh;
-    overflow-y: scroll;
+    overflow-y: hidden;
     overflow-x: hidden;
     background-size: cover;
     background-repeat: no-repeat;
@@ -237,6 +238,45 @@ main {
     left: 0;
     z-index: 10;
     display: none;
+    -webkit-animation: pop-anim;
+    animation: pop-anim;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+
+}
+
+.popup::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+@-webkit-keyframes pop-anim {
+    0% {
+        left: 100vw
+    }
+
+    50% {
+        left: 30vw
+    }
+
+    100% {
+        left: 0
+    }
+}
+
+
+
+@keyframes pop-anim {
+    0% {
+        left: 100vw
+    }
+
+    50% {
+        left: 30vw
+    }
+
+    100% {
+        left: 0
+    }
 }
 
 .popup-blue {
