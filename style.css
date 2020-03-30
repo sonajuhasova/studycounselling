@@ -84,7 +84,7 @@ main {
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-    min-width: 55vw;
+    max-height: 55vw;
 }
 
 .main-title {
